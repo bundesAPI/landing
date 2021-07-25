@@ -113,7 +113,7 @@
       <a href="https://twitter.com/bund_dev" target="_blank"><v-icon x-large color="white">mdi-twitter</v-icon></a>
       <a href="https://github.com/bundesAPI" target="_blank"><v-icon x-large color="white">mdi-github</v-icon></a>
     </div>
-    <small>MfG, die Zivilgesellschaft.</small>
+    <small>MfG, die Zivilgesellschaft™.</small>
   </v-sheet>
 </v-col>
   </v-row>
