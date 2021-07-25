@@ -1,7 +1,7 @@
 <template>
-<v-container>
-  <v-row>
-<v-col>
+<v-container class="ma-xs-0 pa-xs-0">
+  <v-row class="ma-xs-0 pa-xs-0">
+<v-col class="pa-0">
   <Header></Header>
   <v-sheet
     class="hero-sheet"
@@ -148,7 +148,7 @@ export default {
     position: absolute;
     bottom: 1vh;
     left: 3vh;
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 800;
     text-shadow: 0 2px 4px rgb(24 52 71 / 24%);
     color: #fff;
