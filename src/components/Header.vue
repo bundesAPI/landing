@@ -5,7 +5,7 @@
     <div class="d-flex align-center">
       <div
           id="page-title">
-        <span class="highlight ">bundes</span><span class="fdecent"><span class="fblack">A</span><span class="fred">P</span><span class="fgold">I</span></span>
+        <span class="highlight ">bund</span><span class="fdecent"><span class="fblack">D</span><span class="fred">E</span><span class="fgold">V</span></span>
         <span class="subtitle"><span class="highlight">VERWALTUNG</span> DIGITAL</span>
       </div>
 

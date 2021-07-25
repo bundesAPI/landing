@@ -21,9 +21,24 @@
   <h2>Schnittstellen für alle Lebens- und Geschäftslagen</h2>
     <p>Egal ob Sie als Privatperson eine Open-Source-Anwendung bauen oder als Unternehmen Open-Data in Ihre Produkte integrieren wollen. Unsere Schnittstellen stehen der gesamten Gesellschaft offen.</p>
     <v-row>
-      <v-col >
+
+      <v-col class="col-12 col-md-6">
+        <v-card class="api-item" flat  >
+          <img src="../assets/dip.jpg" />
+          <div class="content">
+            <h3><span class="institution">Deutscher Bundestag:</span><br>
+              DIP API</h3>
+            <p>Über diese API ist ein lesender Zugriff auf die Entitäten von
+              DIP (Vorgänge und Vorgangspositionen, Aktivitäten, Personen sowie Drucksachen und Plenarprotokolle) möglich.</p>
+            <a href="https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf" class="documentation">
+              <span class="doc-btn">Dokumentation</span>
+            </a>
+          </div>
+        </v-card>
+      </v-col>
+      <v-col class="col-12 col-md-6">
       <v-card class="api-item" flat  >
-        <img src="../assets/looking_for_job.png" />
+        <img src="../assets/looking_for_job.jpg" />
         <div class="content">
           <h3><span class="institution">Bundesagentur für Arbeit:</span><br>
         Jobsuche API</h3>
@@ -35,9 +50,9 @@
         </div>
       </v-card>
       </v-col>
-      <v-col >
+      <v-col class="col-12 col-md-6">
         <v-card class="api-item" flat  >
-          <img src="../assets/autobahn.png" />
+          <img src="../assets/autobahn.jpg" />
           <div class="content">
             <h3><span class="institution">Autobahn GmbH:</span><br>
               Autobahn API</h3>
@@ -49,36 +64,57 @@
           </div>
         </v-card>
       </v-col>
-      <v-col >
+      <v-col class="col-12 col-md-6">
         <v-card class="api-item" flat  >
-          <img src="../assets/autobahn.png" />
+          <img src="../assets/nina.jpg" />
           <div class="content">
-            <h3><span class="institution">Autobahn GmbH:</span><br>
-              Autobahn API</h3>
-            <p>Was passiert auf Deutschlands Bundesstraßen? Informationen zu Baustellen, Staus, Ladestationen. Zugang zu Verkehrsüberwachungskameras und vielen weiteren Datensätzen.</p>
+            <h3><span class="institution">Bundesamt für Bevölkerungsschutz:</span><br>
+              NINA API</h3>
+            <p>Erhalten Sie wichtige Warnmeldungen des Bevölkerungsschutzes für Gefahrenlagen wie zum Beispiel Gefahrstoffausbreitung oder Unwetter per Programmierschnittstelle.</p>
           <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
             <span class="doc-btn">Dokumentation</span>
-
           </a>
           </div>
         </v-card>
       </v-col>
-      <v-col >
-        <v-card class="api-item" flat  >
-          <img src="../assets/autobahn.png" />
-          <div class="content">
-            <h3><span class="institution">Autobahn GmbH:</span><br>
-              Autobahn API</h3>
-            <p>Was passiert auf Deutschlands Bundesstraßen? Informationen zu Baustellen, Staus, Ladestationen. Zugang zu Verkehrsüberwachungskameras und vielen weiteren Datensätzen.</p>
-          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
-            <span class="doc-btn">Dokumentation</span>
 
-          </a>
+      <v-col class="col-12 col-md-6">
+        <v-card class="api-item" flat  >
+          <img src="../assets/fitconnect.jpg" />
+          <div class="content">
+            <h3><span class="institution">Föderale IT-Kooperation:</span><br>
+              Fit-Connect</h3>
+            <p>Die Schnittstelle ermöglicht Ihnen, Anträge und Berichte aus Ihren eigenen Systemen in die unterschiedlichen Systeme der Verwaltung zu übermitteln.</p>
+            <a href="https://fit-connect.fitko.de/" class="documentation">
+              <span class="doc-btn">Dokumentation</span>
+            </a>
           </div>
         </v-card>
       </v-col>
     </v-row>
     </v-sheet>
+  <v-sheet class="testemonial">
+    <v-row>
+      <v-col>
+        <blockquote class="col-8 offset-2 offset-md-3 col-md-6">
+          <p>
+            Von Open Data profitieren Start-Ups und zivilgesellschaftliche Organisationen ebenso wie die Spitzenforschung und die Verwaltung selbst. Mit dem Zweiten Open Data Gesetz stärkt der Bund die Nutzung von offenen Daten.</p>
+        </blockquote>
+        <figcaption> – Dr. Markus Richter, CIO Bund</figcaption>
+      </v-col>
+    </v-row>
+  </v-sheet>
+  <v-sheet class="api-gallery">
+    <h2>Der Weg zur offenen Verwaltung</h2>
+    <p>Im Rahmen der Open Government Umsetzungsstrategie des Bundes wurde beschlossen, das bis 2024 alle Datensätze und Verwaltungsverfahren der Bundesverwaltung per Programmierschnittstelle (API) zugänglich gemacht werden. Dabei setzen wir auf eine kombinierte Strategie, in der wir einerseits bestehende Schnittstellen dokumentieren und andrerseits alle neuen Projekte in einem offenen Entwicklungsverfahren umsetzen.</p>
+  </v-sheet>
+  <v-sheet class="footer">
+    <div class="social-media">
+      <a href="https://twitter.com/bund_dev" target="_blank"><v-icon x-large color="white">mdi-twitter</v-icon></a>
+      <a href="https://github.com/bundesAPI" target="_blank"><v-icon x-large color="white">mdi-github</v-icon></a>
+    </div>
+    <small>MfG, die Zivilgesellschaft.</small>
+  </v-sheet>
 </v-col>
   </v-row>
 </v-container>
@@ -149,11 +185,12 @@ p {
   padding-left: 8vh;
   padding-right: 8vh;
   padding-top: 4vh;
-  padding-bottom: 4vh;
+  padding-bottom: 12vh;
 
   .api-item {
     background: #d0ecff;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
+    min-height: 550px;
     img {
       width: 100%;
       object-fit: cover;
@@ -181,8 +218,6 @@ p {
           -webkit-hyphens: auto;
           hyphens: auto;
           font-weight: 600;
-
-
         }
         :hover {
           background: rgba(55,121,163,.24);
@@ -194,7 +229,6 @@ p {
         }
 
       }
-
       p {
         margin-bottom: 16px;
         margin-top: 8px;
@@ -213,6 +247,41 @@ p {
     }
   }
 
+}
+
+.testemonial {
+  background: #e6f5fd;
+  font-size: 1.3rem;
+  line-height: 1.375;
+  display: inline-block;
+  font-family: 'Varta', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 4vh;
+  padding-bottom: 6vh;
+  font-style:italic;
+  figcaption {
+    font-weight: 800;
+  }
+}
+
+
+.footer {
+  background-color: rgb(10 24 32);
+  color: #fff;
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: 'Varta', sans-serif;
+  padding-top: 8vh;
+  padding-bottom: 4vh;
+
+  .social-media {
+    font-size: 4rem;
+    padding-bottom: 8vh;
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 </style>
