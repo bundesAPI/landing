@@ -57,7 +57,7 @@
             <h3><span class="institution">Autobahn GmbH:</span><br>
               Autobahn API</h3>
             <p>Was passiert auf Deutschlands Bundesstraßen? Informationen zu Baustellen, Staus, Ladestationen. Zugang zu Verkehrsüberwachungskameras und vielen weiteren Datensätzen.</p>
-          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+          <a href="https://autobahn.api.bund.dev/" class="documentation">
             <span class="doc-btn">Dokumentation</span>
 
           </a>
@@ -71,7 +71,7 @@
             <h3><span class="institution">Bundesamt für Bevölkerungsschutz:</span><br>
               NINA API</h3>
             <p>Erhalten Sie wichtige Warnmeldungen des Bevölkerungsschutzes für Gefahrenlagen wie zum Beispiel Gefahrstoffausbreitung oder Unwetter per Programmierschnittstelle.</p>
-          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+          <a href="https://nina.api.bund.dev/" class="documentation">
             <span class="doc-btn">Dokumentation</span>
           </a>
           </div>
