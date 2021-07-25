@@ -43,7 +43,7 @@
           <h3><span class="institution">Bundesagentur für Arbeit:</span><br>
         Jobsuche API</h3>
           <p>Die größte Stellendatenbank Deutschlands durchsuchen, Details zu Stellenanzeigen und Informationen über Arbeitgeber abrufen.</p>
-          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+          <a href="https://jobsuche.api.bund.dev/" class="documentation">
             <span class="doc-btn">Dokumentation</span>
 
           </a>
