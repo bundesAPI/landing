@@ -107,7 +107,7 @@
   <v-sheet class="api-gallery">
     <h2>5 Punkte Plan „Sofortmaßnahmen Zweites Open Data Gesetz“</h2>
     <p>Im Rahmen der Open Government Umsetzungsstrategie des Bundes wurde beschlossen, dass bis 2024 alle Datensätze und Verwaltungsverfahren der Bundesverwaltung per Programmierschnittstelle (API) zugänglich gemacht werden. Dabei setzen wir auf eine kombinierte Strategie, in der wir einerseits bestehende Schnittstellen dokumentieren und andrerseits alle neuen Projekte in einem offenen Entwicklungsverfahren umsetzen.</p>
-    <p><b>Um diesen Veränderungsprozess Transparent zu machen, wurde ein 5-Punkte-Plan beschlossen:</b></p>
+    <p><b>Um diesen Veränderungsprozess transparent zu machen, soll ein 5-Punkte-Plan beschlossen werden:</b></p>
     <ol>
       <li>Dokumentation und Zugänglichmachung aller bestehenden Schnittstellen des Bundes bis Ende 2021.</li>
       <li>Bereitstellung aller Basisdatensätze aus den Themenfeldern Geobasisdaten, Wetterdaten, Statistiken, Handels- und Transparenzregister und Mobilität entsprechend der EU-Direktive 2019/1024 als Open Data bis Q3 2022.</li>
@@ -115,6 +115,7 @@
       <li>Umstellung auf Open Development Prozess in allen IT-Projekten des Bundes bis 2024.</li>
       <li>Ausweitung von Förderung der digitalen Zivilgesellschaft im Rahmen von unabhängigen Förderprogrammen über die neu zu gründende Verbrauchsstiftung Open Data.</li>
     </ol>
+    <p>Bis zum 31.08 können Sie am Beteiligungsprozess zu den „Sofortmaßnahmen Zweites Open Data Gesetz“ auf <a href="https://github.com/bundesAPI/sofortmassnahmen/blob/main/Vorschlag.md" target="_blank">Github</a> teilnehmen. </p>
   </v-sheet>
   <v-sheet class="footer">
     <div class="social-media">
