@@ -106,7 +106,7 @@
   </v-sheet>
   <v-sheet class="api-gallery">
     <h2>Der Weg zur offenen Verwaltung</h2>
-    <p>Im Rahmen der Open Government Umsetzungsstrategie des Bundes wurde beschlossen, das bis 2024 alle Datensätze und Verwaltungsverfahren der Bundesverwaltung per Programmierschnittstelle (API) zugänglich gemacht werden. Dabei setzen wir auf eine kombinierte Strategie, in der wir einerseits bestehende Schnittstellen dokumentieren und andrerseits alle neuen Projekte in einem offenen Entwicklungsverfahren umsetzen.</p>
+    <p>Im Rahmen der Open Government Umsetzungsstrategie des Bundes wurde beschlossen, dass bis 2024 alle Datensätze und Verwaltungsverfahren der Bundesverwaltung per Programmierschnittstelle (API) zugänglich gemacht werden. Dabei setzen wir auf eine kombinierte Strategie, in der wir einerseits bestehende Schnittstellen dokumentieren und andrerseits alle neuen Projekte in einem offenen Entwicklungsverfahren umsetzen.</p>
   </v-sheet>
   <v-sheet class="footer">
     <div class="social-media">
