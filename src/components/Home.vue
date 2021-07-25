@@ -177,6 +177,9 @@ p {
   margin-bottom: 24px;
   margin-top: 16px;
   font-family: 'Varta', sans-serif;
+  -moz-hyphens: auto;
+  hyphens: auto;
+
 
 }
 
