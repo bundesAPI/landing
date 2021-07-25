@@ -19,12 +19,63 @@
 
   <v-sheet class="api-gallery">
   <h2>Schnittstellen für alle Lebens- und Geschäftslagen</h2>
+    <p>Egal ob Sie als Privatperson eine Open-Source-Anwendung bauen oder als Unternehmen Open-Data in Ihre Produkte integrieren wollen. Unsere Schnittstellen stehen der gesamten Gesellschaft offen.</p>
     <v-row>
-      <v-col>
+      <v-col >
+      <v-card class="api-item" flat  >
+        <img src="../assets/looking_for_job.png" />
+        <div class="content">
+          <h3><span class="institution">Bundesagentur für Arbeit:</span><br>
+        Jobsuche API</h3>
+          <p>Die größte Stellendatenbank Deutschlands durchsuchen, Details zu Stellenanzeigen und Informationen über Arbeitgeber abrufen.</p>
+          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+            <span class="doc-btn">Dokumentation</span>
 
+          </a>
+        </div>
+      </v-card>
       </v-col>
-      <v-col>
-        
+      <v-col >
+        <v-card class="api-item" flat  >
+          <img src="../assets/autobahn.png" />
+          <div class="content">
+            <h3><span class="institution">Autobahn GmbH:</span><br>
+              Autobahn API</h3>
+            <p>Was passiert auf Deutschlands Bundesstraßen? Informationen zu Baustellen, Staus, Ladestationen. Zugang zu Verkehrsüberwachungskameras und vielen weiteren Datensätzen.</p>
+          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+            <span class="doc-btn">Dokumentation</span>
+
+          </a>
+          </div>
+        </v-card>
+      </v-col>
+      <v-col >
+        <v-card class="api-item" flat  >
+          <img src="../assets/autobahn.png" />
+          <div class="content">
+            <h3><span class="institution">Autobahn GmbH:</span><br>
+              Autobahn API</h3>
+            <p>Was passiert auf Deutschlands Bundesstraßen? Informationen zu Baustellen, Staus, Ladestationen. Zugang zu Verkehrsüberwachungskameras und vielen weiteren Datensätzen.</p>
+          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+            <span class="doc-btn">Dokumentation</span>
+
+          </a>
+          </div>
+        </v-card>
+      </v-col>
+      <v-col >
+        <v-card class="api-item" flat  >
+          <img src="../assets/autobahn.png" />
+          <div class="content">
+            <h3><span class="institution">Autobahn GmbH:</span><br>
+              Autobahn API</h3>
+            <p>Was passiert auf Deutschlands Bundesstraßen? Informationen zu Baustellen, Staus, Ladestationen. Zugang zu Verkehrsüberwachungskameras und vielen weiteren Datensätzen.</p>
+          <a href="https://bundesapi.github.io/autobahn-api/" class="documentation">
+            <span class="doc-btn">Dokumentation</span>
+
+          </a>
+          </div>
+        </v-card>
       </v-col>
     </v-row>
     </v-sheet>
@@ -82,6 +133,17 @@ export default {
   padding: 8vh;
 }
 
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.375;
+  color: #0a171f;
+  margin-bottom: 24px;
+  margin-top: 16px;
+  font-family: 'Varta', sans-serif;
+
+}
+
 .api-gallery {
   font-family: 'Varta', sans-serif;
   padding-left: 8vh;
@@ -89,6 +151,67 @@ export default {
   padding-top: 4vh;
   padding-bottom: 4vh;
 
+  .api-item {
+    background: #d0ecff;
+    padding-bottom: 2vh;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      padding-left: 2vh;
+      padding-right: 2vh;
+      .documentation {
+        .doc-btn {
+          font-size: 1.3rem;
+          line-height: 1.375;
+          display: inline-block;
+          font-family: 'Varta', sans-serif;
+          line-height: 1.5;
+          color: #0a171f;
+          margin-bottom: 8px;
+          border-radius: 4px;
+          border: 1px solid #0a171f;
+          padding: 0 8px;
+          padding-top: 5px;
+          margin-right: 8px;
+          background: transparent;
+          transition: background .25s ease-in-out;
+          -webkit-hyphens: auto;
+          hyphens: auto;
+          font-weight: 600;
+
+
+        }
+        :hover {
+          background: rgba(55,121,163,.24);
+        }
+        :focus {
+          background: #3779a3!important;
+          color: #eaf7ff!important;
+          border: 1px solid #3779a3;
+        }
+
+      }
+
+      p {
+        margin-bottom: 16px;
+        margin-top: 8px;
+      }
+    }
+    h3 {
+      padding-top: 1vh;
+      font-weight: 800;
+      font-family: 'Varta', sans-serif;
+      font-size: 1.3rem;
+      .institution {
+        font-weight: 200;
+      }
+
+
+    }
+  }
 
 }
 
