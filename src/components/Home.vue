@@ -91,6 +91,21 @@
           </div>
         </v-card>
       </v-col>
+
+
+      <v-col class="col-12 col-md-6">
+        <v-card class="api-item" flat  >
+          <img src="../assets/wolken.jpg" />
+          <div class="content">
+            <h3><span class="institution">Deutscher Wetterdienst:</span><br>
+              DWD API</h3>
+            <p>Der DWD stellt über seine API nicht nur klassische Wetterdaten und Warnungen bereit, sondern auch viele weitere Informationen. Zum Beispiel von der Zivilgesellschaft eingereichte Wetterfotos.</p>
+            <a href="https://dwd.api.bund.dev/" class="documentation">
+              <span class="doc-btn">Dokumentation</span>
+            </a>
+          </div>
+        </v-card>
+      </v-col>
     </v-row>
     </v-sheet>
   <v-sheet class="testemonial">
