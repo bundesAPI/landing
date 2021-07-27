@@ -137,7 +137,7 @@
       <a href="https://twitter.com/bund_dev" target="_blank"><v-icon x-large color="white">mdi-twitter</v-icon></a>
       <a href="https://github.com/bundesAPI" target="_blank"><v-icon x-large color="white">mdi-github</v-icon></a>
     </div>
-    <small>MfG, die Zivilgesellschaft™.</small>
+    <small>MfG, die Zivilgesellschaft™. E-Mail: kontakt@bund.dev</small>
   </v-sheet>
 </v-col>
   </v-row>
@@ -292,7 +292,7 @@ p, ol  {
 .footer {
   background-color: rgb(10 24 32);
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
   font-family: 'Varta', sans-serif;
   padding-top: 8vh;
