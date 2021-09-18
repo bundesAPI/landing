@@ -3,14 +3,7 @@
   <v-row class="ma-xs-0 pa-xs-0">
 <v-col class="pa-0">
   <Header></Header>
-  <v-sheet
-    class="hero-sheet"
-  >
-    <video playsinline autoplay muted loop class="hero-video">
-      <source :src='require("../assets/videoblocks-flag-of-germany-near-the-reichstag-building-cloudy-day_rcfcg_flg_1080__-SBV-319286258-HD.mp4")' type='video/mp4'>
-    </video>
-    <div class="bottom-left">Wir dokumentieren Deutschland</div>
-  </v-sheet>
+  <Hero title="Wir dokumentieren Deutschland" :video='require("../assets/videoblocks-flag-of-germany-near-the-reichstag-building-cloudy-day_rcfcg_flg_1080__-SBV-319286258-HD.mp4")'></Hero>
   <v-sheet class="mission-statement">
     Im API-Portal des Bundes finden Sie Dokumentationen zu Programmierschnittstellen von Verwaltungsleistungen und Informationsportalen des Bundes.
     Die Zahl online verfügbarer Schnittstellen wird im Rahmen des "Gesetzes zur Änderung des E-Government-Gesetzes und zur Einführung des Gesetzes für die Nutzung von Daten des öffentlichen Sektors" (2. Open-Data-Gesetz) bis 2024 stark anwachsen.
@@ -106,6 +99,12 @@
           </div>
         </v-card>
       </v-col>
+      <v-col class="col-12 all-apis">
+        <p>Momentan bieten wir Ihnen insgesammt Dokumentationen zu 20 etwa APIs an.</p>
+            <a href="/apis" class="all-apis-btn">
+              <span class="doc-btn">Alle APIs</span>
+            </a>
+      </v-col>
     </v-row>
     </v-sheet>
   <v-sheet class="testemonial">
@@ -132,13 +131,7 @@
     </ol>
     <p>Bis zum 31.08 können Sie am Beteiligungsprozess zu den „Sofortmaßnahmen Zweites Open Data Gesetz“ auf <a href="https://github.com/bundesAPI/sofortmassnahmen/blob/main/Vorschlag.md" target="_blank">Github</a> teilnehmen. </p>
   </v-sheet>
-  <v-sheet class="footer">
-    <div class="social-media">
-      <a href="https://twitter.com/bund_dev" target="_blank"><v-icon x-large color="white">mdi-twitter</v-icon></a>
-      <a href="https://github.com/bundesAPI" target="_blank"><v-icon x-large color="white">mdi-github</v-icon></a>
-    </div>
-    <small>MfG, die Zivilgesellschaft™. E-Mail: kontakt@bund.dev</small>
-  </v-sheet>
+<Footer></Footer>
 </v-col>
   </v-row>
 </v-container>
@@ -146,41 +139,15 @@
 
 <script>
 import Header from './Header'
+import Footer from "./Footer";
+import Hero from "./Hero";
 export default {
   name: "Home.vue",
-  components: {Header}
+  components: {Hero, Footer, Header}
 }
 </script>
 
 <style scoped lang="scss">
-.hero-sheet {
-  position: relative;
-
-  padding: 0;
-  margin: 0;
-  .hero-video {
-    width: 100%;
-    max-height: 360px;
-    min-height: 260px;
-
-    object-fit: cover;
-    filter: brightness(70%);
-    overflow:hidden;
-    display:block;
-  }
-  .bottom-left {
-    position: absolute;
-    bottom: 1vh;
-    left: 3vh;
-    font-size: 2.4rem;
-    font-weight: 800;
-    text-shadow: 0 2px 4px rgb(24 52 71 / 24%);
-    color: #fff;
-    font-family: 'Varta', sans-serif;
-
-  }
-
-}
 
 .mission-statement {
   background-color: #183447;
@@ -210,6 +177,40 @@ p, ol  {
   padding-top: 4vh;
   padding-bottom: 12vh;
 
+  .all-apis {
+    text-align: center;
+    margin: 0 auto;
+    .all-apis-btn {
+      .doc-btn {
+        font-size: 1.2rem;
+        display: inline-block;
+        font-family: 'Varta', sans-serif;
+        line-height: 2;
+        color: #0a171f;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        border: 1px solid #0a171f;
+        padding: 0 8px;
+        padding-top: 5px;
+        margin-right: 8px;
+        background: transparent;
+        transition: background .25s ease-in-out;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        font-weight: 600;
+      }
+
+      :hover {
+        background: rgba(55, 121, 163, .24);
+      }
+
+      :focus {
+        background: #3779a3 !important;
+        color: #eaf7ff !important;
+        border: 1px solid #3779a3;
+      }
+    }
+  }
   .api-item {
     background: #d0ecff;
     padding-bottom: 1vh;
@@ -283,28 +284,14 @@ p, ol  {
   padding-top: 4vh;
   padding-bottom: 6vh;
   font-style:italic;
+  blockquote {
+    margin: 0 auto;
+  }
   figcaption {
     font-weight: 800;
   }
 }
 
 
-.footer {
-  background-color: rgb(10 24 32);
-  color: #fff;
-  font-size: 0.9rem;
-  text-align: center;
-  font-family: 'Varta', sans-serif;
-  padding-top: 8vh;
-  padding-bottom: 4vh;
-
-  .social-media {
-    font-size: 4rem;
-    padding-bottom: 8vh;
-    a {
-      text-decoration: none;
-    }
-  }
-}
 
 </style>

@@ -1,30 +1,8 @@
 <template>
-  <v-app>
-
-    <v-main>
-      <Home/>
-    </v-main>
-  </v-app>
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
 
-<script>
-import Home from './components/Home'
-
-export default {
-  name: 'App',
-
-  components: {
-    Home,
-  },
-
-  data: () => ({
-    //
-  }),
-};
-</script>
-
-<style>
-.v-main {
-  background-color: rgba(24,52,71,.72);
-}
+<style lang="scss">
 </style>
