@@ -152,10 +152,16 @@ export default {
         { property: 'og:title', content: "Entwicklungsportal - bund.dev"},
         { property: 'og:site_name', content: 'Entwicklungsportal - bund.dev'},
         { property: 'og:image', content: 'https://bund.dev/preview-apis.png'},
+        { property: 'twitter:site', content: '@bund_dev'},
+        { property: 'og:type', content: 'website'},
+        { property: 'og:locale', content: 'de'},
+        { property: 'twitter:card', content: 'summary'},
         { property: 'twitter:image', content: 'https://bund.dev/api-bund.jpg'},
         { property: 'og:type', content: 'website'},
         { property: 'twitter:description', content: 'Liste aller im Rahmen der Sofortmaßnahmen der Bundesstelle Open Data dokumentierten Programmierschnittstellen.'},
         { name: 'robots', content: 'index,follow'}
+
+
       ]
     }
   },

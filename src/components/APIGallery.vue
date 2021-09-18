@@ -64,8 +64,12 @@ export default {
         { property: 'twitter:image', content: 'https://bund.dev/preview-apis.png'},
         { property: 'twitter:site', content: '@bund_dev'},
         { property: 'og:type', content: 'website'},
+        { property: 'og:locale', content: 'de'},
+        { property: 'twitter:card', content: 'summary'},
+        { property: 'og:url', content: 'https://bund.dev'},
         { property: 'twitter:description', content: 'Liste aller im Rahmen der Sofortmaßnahmen der Bundesstelle Open Data dokumentierten Programmierschnittstellen.'},
         { name: 'robots', content: 'index,follow'}
+
       ]
     }
   },
