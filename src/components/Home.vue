@@ -100,7 +100,7 @@
         </v-card>
       </v-col>
       <v-col class="col-12 all-apis">
-        <p>Momentan bieten wir Ihnen insgesammt Dokumentationen zu 20 etwa APIs an.</p>
+        <p>Momentan bieten wir Ihnen insgesamt Dokumentationen zu 20 etwa Programmierschnittstellen an.</p>
             <a href="/apis" class="all-apis-btn">
               <span class="doc-btn">Alle APIs</span>
             </a>
@@ -143,7 +143,22 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 export default {
   name: "Home.vue",
-  components: {Hero, Footer, Header}
+  components: {Hero, Footer, Header},
+  metaInfo() {
+    return {
+      title: "API Übersicht - bund.dev",
+      meta: [
+        { name: 'description', content:  'Schnittstellen der Bundesverwaltung. Hier finden Sie Informationen und Dokumentation zu den APIs des Bundes.'},
+        { property: 'og:title', content: "Entwicklungsportal - bund.dev"},
+        { property: 'og:site_name', content: 'Entwicklungsportal - bund.dev'},
+        { property: 'og:image', content: 'https://bund.dev/preview-apis.png'},
+        { property: 'twitter:image', content: 'https://bund.dev/api-bund.jpg'},
+        { property: 'og:type', content: 'website'},
+        { property: 'twitter:description', content: 'Liste aller im Rahmen der Sofortmaßnahmen der Bundesstelle Open Data dokumentierten Programmierschnittstellen.'},
+        { name: 'robots', content: 'index,follow'}
+      ]
+    }
+  },
 }
 </script>
 
