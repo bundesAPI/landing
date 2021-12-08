@@ -23,7 +23,7 @@
               DIP API</h3>
             <p>Über diese API ist ein lesender Zugriff auf die Entitäten von
               DIP (Vorgänge und Vorgangspositionen, Aktivitäten, Personen sowie Drucksachen und Plenarprotokolle) möglich.</p>
-            <a href="https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf" class="documentation">
+            <a href="https://dip.bundestag.de/über-dip/hilfe/api" class="documentation">
               <span class="doc-btn">Dokumentation</span>
             </a>
           </div>
