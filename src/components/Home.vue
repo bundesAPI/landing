@@ -129,7 +129,7 @@
       <li>Umstellung auf Open Development Prozess in allen IT-Projekten des Bundes bis 2024.</li>
       <li>Ausweitung von Förderung der digitalen Zivilgesellschaft im Rahmen von unabhängigen Förderprogrammen über die neu zu gründende Verbrauchsstiftung Open Data.</li>
     </ol>
-    <p>Bis zum 31.08 können Sie am Beteiligungsprozess zu den „Sofortmaßnahmen Zweites Open Data Gesetz“ auf <a href="https://github.com/bundesAPI/sofortmassnahmen/blob/main/Vorschlag.md" target="_blank">Github</a> teilnehmen. </p>
+    <p>Bis auf Weiteres können Sie am Beteiligungsprozess zu den „Sofortmaßnahmen Zweites Open Data Gesetz“ auf <a href="https://github.com/bundesAPI/sofortmassnahmen" target="_blank">Github</a> teilhaben. </p>
   </v-sheet>
 <Footer></Footer>
 </v-col>
