@@ -100,7 +100,7 @@
         </v-card>
       </v-col>
       <v-col class="col-12 all-apis">
-        <p>Momentan bieten wir Ihnen insgesamt Dokumentationen zu mehr als 25 Programmierschnittstellen an.</p>
+        <p>Momentan bieten wir Ihnen insgesamt Dokumentationen zu mehr als 30 Programmierschnittstellen an.</p>
             <a href="/apis" class="all-apis-btn">
               <span class="doc-btn">Alle APIs</span>
             </a>
