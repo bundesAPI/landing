@@ -76,9 +76,9 @@
           <img src="../assets/fitconnect.jpg" />
           <div class="content">
             <h3><span class="institution">Föderale IT-Kooperation:</span><br>
-              Fit-Connect</h3>
+              FIT-Connect</h3>
             <p>Die Schnittstelle ermöglicht Ihnen, Anträge und Berichte aus Ihren eigenen Systemen in die unterschiedlichen Systeme der Verwaltung zu übermitteln.</p>
-            <a href="https://fit-connect.fitko.de/" class="documentation">
+            <a href="https://docs.fitko.de/fit-connect/" class="documentation">
               <span class="doc-btn">Dokumentation</span>
             </a>
           </div>
